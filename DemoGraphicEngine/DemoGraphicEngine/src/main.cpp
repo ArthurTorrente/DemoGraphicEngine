@@ -48,7 +48,7 @@ void render()
 {
 	update();
 
-	renderer.renderer(s, camera);
+	renderer.render(s, camera);
 }
 
 int main(int argc, char** argv)
